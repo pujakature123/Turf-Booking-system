@@ -1,0 +1,19 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill for {{u}}</title>
+    <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='/turf.css') }}">
+</head>
+<body>
+<div class="login" style="margin:auto;
+top: 50%; left: 50%;">
+<h1>Bill Generated</h1>
+    <h1> ----------- </h1>
+    <br> <br>
+    <p> User's username: {{u}}</p>
+    <p> Location booked: {{l}}</p>
+    <p> Price for the location: {{p}}</p>
+</div>
+</body>
+</html>
